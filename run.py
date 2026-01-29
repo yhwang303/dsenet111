@@ -6,7 +6,7 @@ import random
 import numpy as np
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='DSENet (State Space Transformer) for Long-Short Range Time Series Forecasting')
+    parser = argparse.ArgumentParser(description='DSENet (Dual-Stream Enhancement Network) for Time Series Forecasting')
 
     # random seed
     parser.add_argument('--random_seed', type=int, default=2021, help='random seed')
